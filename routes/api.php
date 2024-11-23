@@ -20,3 +20,4 @@ use Illuminate\Support\Facades\Route;
 
 Route::apiResource('/books', App\Http\Controllers\Api\BookController::class);
 Route::apiResource('/coupons', App\Http\Controllers\Api\CouponController::class);
+Route::apiResource('/checkout', App\Http\Controllers\Api\CheckoutController::class);
